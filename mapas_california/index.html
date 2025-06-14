@@ -1,0 +1,58 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Mapas de California Housing Dataset</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
+            .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+            h1 { color: #2c3e50; text-align: center; margin-bottom: 30px; }
+            .map-card { background: #f8f9fa; padding: 20px; margin: 15px 0; border-radius: 8px; border-left: 4px solid #3498db; }
+            .map-card h3 { color: #2c3e50; margin-top: 0; }
+            .map-card p { color: #666; margin: 10px 0; }
+            .map-link { display: inline-block; padding: 10px 20px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; transition: background 0.3s; }
+            .map-link:hover { background: #2980b9; }
+            .info { background: #e8f5e8; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>🗺️ Mapas Interactivos - California Housing Dataset</h1>
+            
+            <div class="info">
+                <strong>📋 Información:</strong> Esta visualización incluye 4 mapas interactivos creados con Folium 
+                para analizar el dataset de viviendas de California. Cada mapa ofrece una perspectiva diferente de los datos.
+            </div>
+            
+            <div class="map-card">
+                <h3>🏠 1. Mapa Básico</h3>
+                <p>Marcadores individuales con información detallada de cada casa (muestra de 100 propiedades).</p>
+                <a href="01_mapa_basico.html" class="map-link" target="_blank">Ver Mapa Básico</a>
+            </div>
+            
+            <div class="map-card">
+                <h3>🔥 2. Mapa de Calor</h3>
+                <p>Visualización de densidad de precios de viviendas en California usando gradiente de colores.</p>
+                <a href="02_mapa_calor.html" class="map-link" target="_blank">Ver Mapa de Calor</a>
+            </div>
+            
+            <div class="map-card">
+                <h3>📍 3. Mapa con Clusters</h3>
+                <p>Agrupación inteligente de marcadores por ubicación geográfica (muestra de 500 propiedades).</p>
+                <a href="03_mapa_clusters.html" class="map-link" target="_blank">Ver Mapa de Clusters</a>
+            </div>
+            
+            <div class="map-card">
+                <h3>💰 4. Mapa de Segmentos de Precio</h3>
+                <p>Propiedades categorizadas por rangos de precio con código de colores (muestra de 300 propiedades).</p>
+                <a href="04_mapa_segmentos_precio.html" class="map-link" target="_blank">Ver Mapa de Segmentos</a>
+            </div>
+            
+            <div class="info">
+                <strong>💡 Tip:</strong> Haz clic en los marcadores para ver información detallada. 
+                Usa los controles de zoom y las capas disponibles para explorar los datos.
+            </div>
+        </div>
+    </body>
+    </html>
+    
