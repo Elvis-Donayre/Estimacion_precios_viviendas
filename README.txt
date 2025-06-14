@@ -1,10 +1,5 @@
 # 🏡 Predicción de Precios de Viviendas en California
 
-![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)
-![XGBoost](https://img.shields.io/badge/XGBoost-latest-green.svg)
-![LightGBM](https://img.shields.io/badge/LightGBM-latest-yellow.svg)
-
 ## 📈 Problema de Negocio
 
 Este proyecto tiene como objetivo predecir los precios de las viviendas en California utilizando datos geoespaciales y características de las propiedades. Se exploran modelos de machine learning avanzados para ayudar a comprender cómo varían los precios según la ubicación y las características de las viviendas, proporcionando insights valiosos para el mercado inmobiliario.
